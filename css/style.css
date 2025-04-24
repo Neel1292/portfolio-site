@@ -120,6 +120,9 @@ body {
     font-size: 3.6rem;
     color: var(--text-color);
     display: none;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 2.5s;
 }
 
 section {
@@ -815,9 +818,12 @@ span {
 
 @media (max-width: 768px) {
 
+    .header {
+        width: 90%;
+    }
+
     #menu-icon {
         display: block;
-        
     }
 
     #darkMode-icon {
@@ -985,6 +991,10 @@ span {
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+
+    .header {
+        width: 85%;
     }
 
     #darkMode-icon {
