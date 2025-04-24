@@ -818,9 +818,6 @@ span {
 
 @media (max-width: 768px) {
 
-    .header {
-        width: 90%;
-    }
 
     #menu-icon {
         display: block;
@@ -993,9 +990,6 @@ span {
         font-size: 50%;
     }
 
-    .header {
-        width: 85%;
-    }
 
     #darkMode-icon {
         right: 8rem;
