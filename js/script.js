@@ -76,17 +76,17 @@ darkModeIcon.onclick = () => {
 }
 
 /* =========== scroll reveal =========== */ 
-ScrollReveal({ 
-  // reset: true,
-  distance: '80px',
-  duration: 2000,
-  delay: 200
-});
+// ScrollReveal({ 
+//   // reset: true,
+//   distance: '80px',
+//   duration: 2000,
+//   delay: 200
+// });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' })
-ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .testimonial-wrapper, .contact form', { origin: 'bottom' })
-ScrollReveal().reveal('.header .logo, .home-content h1, .about-img img', { origin: 'left' })
-ScrollReveal().reveal('.home-content h3, .home-content p, .profession-container, .about-content', { origin: 'right' })
+// ScrollReveal().reveal('.home-content, .heading', { origin: 'top' })
+// ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .testimonial-wrapper, .contact form', { origin: 'bottom' })
+// ScrollReveal().reveal('.header .logo, .home-content h1, .about-img img', { origin: 'left' })
+// ScrollReveal().reveal('.home-content h3, .home-content p, .profession-container, .about-content', { origin: 'right' })
 
 /* =========== contact form mail sent =========== */ 
 document.getElementById("contact-form").addEventListener("submit", async function (event) {

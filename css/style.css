@@ -60,8 +60,8 @@ body {
     font-weight: 600;
     cursor: default;
     margin-right: auto;
-    /* opacity: 0; */
-    /* animation: slideRight 1s ease forwards; */
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
 }
 
 .navbar a {
@@ -143,25 +143,25 @@ section {
     font-size: 3.2rem;
     font-weight: 700;
     line-height: .3;
-    /* opacity: 0;
+    opacity: 0;
     animation: slideRight 1s ease forwards;
-    animation-delay: .7s; */
+    animation-delay: .7s;
 }
 
 .home-content h1 {
     font-size: 5.6rem;
     font-weight: 700;
     margin-bottom: .3rem;
-    /* opacity: 0;
+    opacity: 0;
     animation: slideRight 1s ease forwards;
-    animation-delay: 1s; */
+    animation-delay: 1s;
 }
 
 .home-content p {
     font-size: 1.6rem;
-    /* opacity: 0;
+    opacity: 0;
     animation: slideLeft 1s ease forwards;
-    animation-delay: 1s; */
+    animation-delay: 1s;
 }
 
 .home-content .social-media a {
@@ -179,9 +179,9 @@ section {
     margin: 2.5rem 1.5rem 3rem 0;
     transition: .5s ease;
     text-decoration: none;
-    /* opacity: 0;
+    opacity: 0;
     animation: slideLeft 1s ease forwards;
-    animation-delay: calc(.2s * var(--i)); */
+    animation-delay: calc(.2s * var(--i));
 }
 
 .home-content .social-media a:hover {
@@ -201,9 +201,9 @@ section {
     font-weight: 600;
     border: .2rem solid transparent;
     transition: .5s ease;
-    /* opacity: 0;
+    opacity: 0;
     animation: slideTop 1s ease forwards;
-    animation-delay: 2s; */
+    animation-delay: 2s;
 }
 
 .btn:hover {
@@ -233,10 +233,10 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* opacity: 0;
+    opacity: 0;
     animation: slideLeft 1s ease forwards, professionRotate 13s ease-out infinite;
-    animation-delay: 2.5s, 3.5s; */
-    animation: professionRotate 13s ease-out infinite;
+    animation-delay: 2.5s, 3.5s;
+    /* animation: professionRotate 13s ease-out infinite; */
 }
 
 .home .profession-box .profession {
@@ -301,9 +301,9 @@ section {
     width: 400px;
     height: 600px;
     pointer-events: none;
-    /* opacity: 0;
+    opacity: 0;
     animation: slideLeft 1s ease forwards;
-    animation-delay: 2.8s; */
+    animation-delay: 2.8s;
 }
 
 span {
@@ -683,7 +683,7 @@ span {
 
 
 /* KEYFRAME ANIMATION */
-/* @keyframes slideRight {
+@keyframes slideRight {
     0% {
         opacity: 0;
         transform: translateX(-100px);
@@ -692,7 +692,7 @@ span {
         opacity: 1;
         transform: translateX(0);
     }
-} */
+}
 
 @keyframes slideLeft {
     0% {
@@ -705,7 +705,7 @@ span {
     }
 }
 
-/* @keyframes slideTop {
+@keyframes slideTop {
     0% {
         opacity: 0;
         transform: translateY(100px);
@@ -714,7 +714,7 @@ span {
         opacity: 1;
         transform: translateY(0);
     }
-} */
+}
 
 @keyframes professionRotate {
     0%, 20% {
@@ -934,8 +934,8 @@ span {
 
     .home .profession-container .overlay {
         position: fixed;
-        top: 80rem;
-        /* top: 65rem; */
+        /* top: 80rem; */
+        top: 65rem;
         left: 50%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
